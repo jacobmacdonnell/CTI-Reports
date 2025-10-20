@@ -1,16 +1,36 @@
 # [Threat Report Title]  
 *(e.g., Mustang Panda Infrastructure Shift – Q4 2025)*
 
+**TLP:** WHITE  
+- **Author:** [Your Name]  
+- **Date:** YYYY-MM-DD  
+- **Version:** 1.0  
+
+---
+
 ## 1. Executive Summary  
+
 Brief, non-technical overview (3–5 sentences):  
 - What happened?  
 - Who is behind it (if known/suspected)?  
 - Why it matters.  
 - Key findings.
 
+### Summary Table
+
+| Field | Value |
+|-------|-------|
+| Threat Actor | [Name or Classification] |
+| Target Sectors | [e.g., Government, Energy, Finance] |
+| Target Regions | [e.g., Europe, North America] |
+| First Observed | YYYY-MM-DD |
+| Confidence | Low / Moderate / High |
+| Objectives | [e.g., Espionage, Credential Theft, Disruption] |
+
 ---
 
 ## 2. Background  
+
 Context and reason for investigation:  
 - How it was discovered (OSINT source, IOC tip, sandbox, etc.)  
 - Previous activity or patterns related to this campaign.  
@@ -19,6 +39,7 @@ Context and reason for investigation:
 ---
 
 ## 3. Infrastructure Analysis  
+
 Detail all domains, IPs, and infrastructure observed.
 
 | Domain / IP | First Seen | Hosting Provider | Notes |
@@ -34,6 +55,7 @@ Include:
 ---
 
 ## 4. TTP Analysis (MITRE ATT&CK)  
+
 Map observed activity to ATT&CK techniques.
 
 | Stage | Technique | ID | Evidence |
@@ -49,6 +71,7 @@ Also note:
 ---
 
 ## 5. Attribution Assessment  
+
 Summarize reasoning and confidence:  
 - Likely actor or classification (e.g., “Russian-speaking crimeware group”)  
 - Historical overlaps (infrastructure, code, TTPs)  
@@ -57,6 +80,7 @@ Summarize reasoning and confidence:
 ---
 
 ## 6. Strategic Assessment & Implications  
+
 Explain the broader significance:  
 - Targeted sectors, regions, or organizations  
 - Likely objectives (espionage, credential theft, disruption)  
@@ -65,6 +89,7 @@ Explain the broader significance:
 ---
 
 ## 7. Recommendations  
+
 Defensive steps based on findings:  
 - Detection or monitoring ideas  
 - IOC blocking  
@@ -73,6 +98,7 @@ Defensive steps based on findings:
 ---
 
 ## 8. Indicators of Compromise (IOCs)  
+
 Full IOC list (domains, IPs, hashes, URLs).
 
 | Type | Value | First Seen | Notes |
@@ -84,6 +110,7 @@ Full IOC list (domains, IPs, hashes, URLs).
 ---
 
 ## 9. References  
+
 Sources used in analysis:
 
 - [VirusTotal Sample](https://www.virustotal.com/gui/file/...)  
@@ -91,4 +118,4 @@ Sources used in analysis:
 
 ---
 
-*Report created by [Your Name], [Date].*
+*Report created by [Your Name], YYYY-MM-DD.*
