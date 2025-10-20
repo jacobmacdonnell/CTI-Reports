@@ -1,8 +1,8 @@
-# 🛡️ Cyber Threat Intelligence Repository
+# 🛡️ Cyber Threat Intelligence Portfolio
 
 Independent cyber threat intelligence (CTI) and OSINT investigations by **Jacob Macdonnell**.
 
-This repository showcases research into adversary infrastructure, tradecraft (TTPs), and attribution assessments based solely on **legally obtained open-source intelligence (OSINT)**. All content is produced for **educational, defensive, and analytical purposes** — no proprietary or illegally obtained data is included.
+This repository serves as a professional **portfolio of adversary analysis, campaign tracking, and strategic intelligence reporting**. All research is based on **legally obtained open-source intelligence (OSINT)** and produced for **educational and defensive cybersecurity purposes**.
 
 ---
 
@@ -10,32 +10,32 @@ This repository showcases research into adversary infrastructure, tradecraft (TT
 
 | Directory | Purpose |
 |----------|---------|
-| `reports/` | Full CTI investigations with in-depth infrastructure analysis, TTP mapping, attribution, and strategic assessment |
-| `briefs/` | Short OSINT briefs summarizing key campaigns, actor activity, or emerging threat trends |
-| `templates/` | Reusable Markdown templates for writing new reports or briefs |
-| `iocs/` *(optional)* | Consolidated indicators of compromise (IOCs) for quick reference or integration into security tooling |
+| `reports/` | Full CTI investigations with deep infrastructure analysis, TTP mapping, attribution, and strategic assessment |
+| `briefs/` | Short OSINT briefs summarizing threat campaigns, actor activity, or emerging trends |
+| `templates/` | Reusable Markdown templates for new reports and briefs |
+| `iocs/` *(optional)* | Consolidated indicators of compromise (IOCs) for reference or quick integration |
 
 ---
 
 ## 📊 About the Reports
 
-Each report follows a structured intelligence methodology aligned with industry standards (e.g., MITRE ATT&CK, Diamond Model, intelligence tradecraft).  
+Each report follows a structured analytic process aligned with industry standards (MITRE ATT&CK, Diamond Model, structured analytic tradecraft).  
 They typically include:
 
-- 🧠 **Background & context** – who, what, and why behind the activity  
-- 🛠️ **Infrastructure analysis** – domains, IPs, SSL reuse, and pivoting  
-- 📊 **TTP mapping** – techniques, tactics, and procedures linked to ATT&CK  
+- 🧠 **Background & context** – who, what, when, and why behind the activity  
+- 🛠️ **Infrastructure analysis** – domains, IPs, SSL reuse, registration patterns, pivoting  
+- 📊 **TTP mapping** – adversary techniques and procedures mapped to ATT&CK  
 - 🧩 **Attribution assessment** – analytic judgments with confidence levels  
-- 📈 **Strategic implications** – what it means for defenders and organizations  
-- 🔐 **Defensive recommendations** – detection, monitoring, and mitigation steps  
+- 📈 **Strategic implications** – relevance to defenders, sectors, or geopolitical trends  
+- 🔐 **Defensive recommendations** – detection, monitoring, and mitigation guidance  
 
-Briefs follow a lighter format focused on rapid assessments, campaign trends, and situational awareness.
+Short OSINT briefs follow a lighter format optimized for quick consumption and situational awareness.
 
 ---
 
 ## 🧰 Naming Conventions
 
-To keep the repository consistent and searchable, all files follow this pattern:
+To ensure consistency and readability, all files follow this pattern:
 
 | File Type | Format | Example |
 |-----------|--------|---------|
@@ -45,22 +45,33 @@ To keep the repository consistent and searchable, all files follow this pattern:
 
 ---
 
-## 🧠 How to Use This Repo
+## 🧠 How to Navigate This Portfolio
 
-- Explore the `reports/` directory to read full-scope intelligence investigations.  
-- Browse `briefs/` for concise, high-level threat summaries.  
-- Use `templates/` to quickly create new reports following professional standards.  
-- Integrate IOCs into your own detection or enrichment workflows (if included).
+- Explore the `reports/` directory to view full-scope intelligence investigations.  
+- Browse `briefs/` for concise, rapid-threat snapshots.  
+- Use `templates/` as starting points for writing new analyses.  
+- Review `iocs/` for aggregated indicators when available.
+
+---
+
+## 🎯 Purpose
+
+This repository is designed to **demonstrate professional CTI analysis skills** including:  
+- Adversary tracking and campaign research  
+- Infrastructure pivoting and enrichment  
+- ATT&CK-based TTP analysis  
+- Attribution reasoning and analytic confidence  
+- Strategic intelligence reporting
+
+It reflects the analytic tradecraft and reporting standards expected in **threat intelligence, SOC, and cyber defense roles**.
 
 ---
 
 ## ⚠️ Disclaimer
 
-All information in this repository is derived from **publicly available sources**.  
-Attribution statements represent **analytic assessments** and should not be interpreted as definitive conclusions.  
-This content is intended strictly for **research, education, and defensive cybersecurity purposes**.
+All content is derived from **publicly available information**. Attribution assessments represent **analytic judgments** and are **not definitive conclusions**. All material is intended for **research, education, and defensive cybersecurity purposes only**.
 
 ---
 
 ✉️ **Author:** Jacob Macdonnell  
-🔎 *“Intelligence is not knowledge — it’s the structured understanding of why something matters.”*
+🔎 *“Intelligence isn’t just knowing what happened — it’s understanding why it matters.”*
