@@ -1,3 +1,15 @@
+<!-- 
+📄 Naming & File Conventions:
+- Save in /briefs/
+- Format: YYYY-MM_ActorOrTopic_Snapshot.md
+  Example: 2025-10_BianLian_CanadaSnapshot.md
+
+💡 Guidelines:
+- Keep filenames concise and readable.
+- Include year-month to maintain chronological order.
+- Use "Snapshot" for short briefs or summaries.
+-->
+
 # [Threat Brief Title]  
 *(e.g., BianLian Targets Canadian Airlines – October 2025)*
 
