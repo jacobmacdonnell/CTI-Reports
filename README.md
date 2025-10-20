@@ -1,15 +1,34 @@
-# Cyber Threat Intelligence Reports
+# Cyber Threat Intelligence Repository
 
-Independent cyber threat intelligence and OSINT investigations by Jacob Macdonnell.
+Independent cyber threat intelligence and OSINT investigations by **Jacob Macdonnell**.
 
-This repository contains reports on adversary infrastructure, TTP analysis, and attribution assessments based on publicly available information. All research uses legal open-source data and is intended for educational and defensive purposes only.
+This repository contains analysis of adversary infrastructure, tradecraft (TTPs), and attribution assessments based solely on **open-source intelligence (OSINT)**. All findings are derived from legally obtained data and intended for **educational and defensive cybersecurity purposes**.
 
-## 📂 Structure
+---
 
-- `reports/` – Completed CTI investigations  
-- `templates/` – Reusable templates for new reports  
-- `iocs.csv` – Indicators of compromise for quick integration into security tooling
+## 📁 Repository Structure
 
-## 📜 Disclaimer
+| Directory | Purpose |
+|----------|---------|
+| `reports/` | Full CTI investigations with infrastructure, TTP, attribution, and strategic analysis |
+| `briefs/` | Short OSINT threat briefs focused on campaigns, trends, or notable actor activity |
+| `templates/` | Markdown templates for quickly creating new reports |
+| `iocs/` *(optional)* | Consolidated indicators of compromise (IOCs) for reference or enrichment |
 
-All data and analysis here are based on publicly available information. Attribution statements represent analytic assessments and are not definitive conclusions.
+---
+
+## 📊 Report Focus
+
+All reports follow standard intelligence tradecraft and typically include:
+
+- 🧠 **Adversary background** and campaign context  
+- 🛠️ **Infrastructure analysis** (domains, IPs, certificates, overlaps)  
+- 📊 **TTP mapping** aligned with MITRE ATT&CK  
+- 🧩 **Attribution assessments** with analytic confidence levels  
+- 📈 **Strategic implications** and defensive recommendations
+
+---
+
+## ⚠️ Disclaimer
+
+All information in this repository is based on **publicly available sources**. Attribution assessments represent **analytic judgments**, not definitive conclusions. Content is intended strictly for **research, education, and defensive purposes**.
