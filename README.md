@@ -1,6 +1,6 @@
 # Cyber Threat Intelligence Reports
 
-Independent cyber threat intelligence and OSINT investigations by [Your Name].
+Independent cyber threat intelligence and OSINT investigations by Jacob Macdonnell.
 
 This repository contains reports on adversary infrastructure, TTP analysis, and attribution assessments based on publicly available information. All research uses legal open-source data and is intended for educational and defensive purposes only.
 
