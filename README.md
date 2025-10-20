@@ -1,8 +1,8 @@
-# Cyber Threat Intelligence Repository
+# 🛡️ Cyber Threat Intelligence Repository
 
-Independent cyber threat intelligence and OSINT investigations by **Jacob Macdonnell**.
+Independent cyber threat intelligence (CTI) and OSINT investigations by **Jacob Macdonnell**.
 
-This repository contains analysis of adversary infrastructure, tradecraft (TTPs), and attribution assessments based solely on **open-source intelligence (OSINT)**. All findings are derived from legally obtained data and intended for **educational and defensive cybersecurity purposes**.
+This repository showcases research into adversary infrastructure, tradecraft (TTPs), and attribution assessments based solely on **legally obtained open-source intelligence (OSINT)**. All content is produced for **educational, defensive, and analytical purposes** — no proprietary or illegally obtained data is included.
 
 ---
 
@@ -10,25 +10,57 @@ This repository contains analysis of adversary infrastructure, tradecraft (TTPs)
 
 | Directory | Purpose |
 |----------|---------|
-| `reports/` | Full CTI investigations with infrastructure, TTP, attribution, and strategic analysis |
-| `briefs/` | Short OSINT threat briefs focused on campaigns, trends, or notable actor activity |
-| `templates/` | Markdown templates for quickly creating new reports |
-| `iocs/` *(optional)* | Consolidated indicators of compromise (IOCs) for reference or enrichment |
+| `reports/` | Full CTI investigations with in-depth infrastructure analysis, TTP mapping, attribution, and strategic assessment |
+| `briefs/` | Short OSINT briefs summarizing key campaigns, actor activity, or emerging threat trends |
+| `templates/` | Reusable Markdown templates for writing new reports or briefs |
+| `iocs/` *(optional)* | Consolidated indicators of compromise (IOCs) for quick reference or integration into security tooling |
 
 ---
 
-## 📊 Report Focus
+## 📊 About the Reports
 
-All reports follow standard intelligence tradecraft and typically include:
+Each report follows a structured intelligence methodology aligned with industry standards (e.g., MITRE ATT&CK, Diamond Model, intelligence tradecraft).  
+They typically include:
 
-- 🧠 **Adversary background** and campaign context  
-- 🛠️ **Infrastructure analysis** (domains, IPs, certificates, overlaps)  
-- 📊 **TTP mapping** aligned with MITRE ATT&CK  
-- 🧩 **Attribution assessments** with analytic confidence levels  
-- 📈 **Strategic implications** and defensive recommendations
+- 🧠 **Background & context** – who, what, and why behind the activity  
+- 🛠️ **Infrastructure analysis** – domains, IPs, SSL reuse, and pivoting  
+- 📊 **TTP mapping** – techniques, tactics, and procedures linked to ATT&CK  
+- 🧩 **Attribution assessment** – analytic judgments with confidence levels  
+- 📈 **Strategic implications** – what it means for defenders and organizations  
+- 🔐 **Defensive recommendations** – detection, monitoring, and mitigation steps  
+
+Briefs follow a lighter format focused on rapid assessments, campaign trends, and situational awareness.
+
+---
+
+## 🧰 Naming Conventions
+
+To keep the repository consistent and searchable, all files follow this pattern:
+
+| File Type | Format | Example |
+|-----------|--------|---------|
+| Full CTI Report | `YYYY-MM_ActorOrGroup_Focus.md` | `2025-10_MustangPanda_InfrastructureShift.md` |
+| OSINT Brief | `YYYY-MM_ActorOrTopic_Snapshot.md` | `2025-10_BianLian_CanadaSnapshot.md` |
+| IOC List *(optional)* | `YYYY-MM_Actor_IOCs.csv` | `2025-10_BianLian_IOCs.csv` |
+
+---
+
+## 🧠 How to Use This Repo
+
+- Explore the `reports/` directory to read full-scope intelligence investigations.  
+- Browse `briefs/` for concise, high-level threat summaries.  
+- Use `templates/` to quickly create new reports following professional standards.  
+- Integrate IOCs into your own detection or enrichment workflows (if included).
 
 ---
 
 ## ⚠️ Disclaimer
 
-All information in this repository is based on **publicly available sources**. Attribution assessments represent **analytic judgments**, not definitive conclusions. Content is intended strictly for **research, education, and defensive purposes**.
+All information in this repository is derived from **publicly available sources**.  
+Attribution statements represent **analytic assessments** and should not be interpreted as definitive conclusions.  
+This content is intended strictly for **research, education, and defensive cybersecurity purposes**.
+
+---
+
+✉️ **Author:** Jacob Macdonnell  
+🔎 *“Intelligence is not knowledge — it’s the structured understanding of why something matters.”*
