@@ -1,3 +1,15 @@
+<!-- 
+📄 Naming & File Conventions:
+- Save in /reports/
+- Format: YYYY-MM_ActorOrGroup_Focus.md
+  Example: 2025-10_MustangPanda_InfrastructureShift.md
+
+💡 Guidelines:
+- Always include year-month for chronological sorting.
+- Keep names short, clear, and readable.
+- Avoid spaces and special characters.
+-->
+
 # [Threat Report Title]  
 *(e.g., Mustang Panda Infrastructure Shift – Q4 2025)*
 
